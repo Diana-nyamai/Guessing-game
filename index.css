@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(153,50,204),
+rgba(148,0,221));
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px 2px #000;
+    width: 600px;
+}
+#game{
+    background-color: rgba(139,0,139);
+    padding-top: 1em;
+    color:#fff;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    height: 170px;
+    margin-top: 40px;
+    box-shadow: 0px 2px 2px 1px rgba(139,0,139);
+}
+#congrats{
+    visibility: hidden;
+    display:none;
+    background-color:rgba(139,0,139) ;
+    padding-top: 1em;
+    color: #fff;
+text-align: center;
+font-size: 20px;
+width: 100%;
+height: 100px;
+box-shadow: 0px 2px 2px 1px rgba(139,0,139);
+border-top:1px dotted #fff;
+}
+#congratsmsg{
+    display: none;
+}
+.Guess{
+    font-size: 1em;
+    border-style: none;
+    background-color: #fff;
+    max-width: 100px;
+    text-align: center;
+}
+.playAgain{
+    font-size: 1em;
+    border-style: none;
+    background-color: #fff;
+    text-align: center;
+}
+#Hint{
+    font-weight: lighter;
+    font-style: italic;
+}
